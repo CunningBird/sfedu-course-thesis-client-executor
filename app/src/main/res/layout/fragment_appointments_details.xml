@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/img_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_service"
+        android:tint="@color/main_app_color"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/serviceInfoText"
+        tools:text="Awesome Service"
+        android:paddingStart="11dp"
+        android:paddingEnd="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/img_service"
+        app:layout_constraintStart_toEndOf="@+id/img_service"
+        app:layout_constraintTop_toTopOf="@+id/img_service" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/img_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/ic_account"
+        android:tint="@color/main_app_color"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_service" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/serviceInfoText"
+        tools:text="John Doe"
+        android:paddingStart="11dp"
+        android:paddingEnd="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/img_account"
+        app:layout_constraintStart_toEndOf="@+id/img_account"
+        app:layout_constraintTop_toTopOf="@+id/img_account" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/img_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/ic_account"
+        android:tint="@color/main_app_color"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_account" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/serviceInfoText"
+        tools:text="Confirmed"
+        android:paddingStart="11dp"
+        android:paddingEnd="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/img_status"
+        app:layout_constraintStart_toEndOf="@+id/img_status"
+        app:layout_constraintTop_toTopOf="@+id/img_status" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/img_geo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/ic_account"
+        android:tint="@color/main_app_color"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_status" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_geo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/serviceInfoText"
+        tools:text="5 apt, Puskina str., Rostov-on-Don, Russia"
+        android:paddingStart="11dp"
+        android:paddingEnd="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/img_geo"
+        app:layout_constraintStart_toEndOf="@+id/img_geo"
+        app:layout_constraintTop_toTopOf="@+id/img_geo" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/action_button"
+        style="@style/ActionButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        tools:text="@string/go_to_dialog"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_geo" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/empty_action_button"
+        style="@style/ActionButtonEmpty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp"
+        tools:text="@string/appointment_page"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/action_button" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/italicGrayText"
+        android:text="Close Appointment"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/empty_action_button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

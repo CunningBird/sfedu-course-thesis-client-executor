@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:text="Title"
+        style="@style/accountText" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginHorizontal="20dp"
+        android:singleLine="true"
+        android:scrollHorizontally="true"
+        style="@style/italicText" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginHorizontal="20dp"
+        android:text="Price"
+        style="@style/accountText" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginHorizontal="20dp"
+        android:singleLine="true"
+        android:scrollHorizontally="true"
+        style="@style/italicText" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/action_button"
+        style="@style/ActionButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/update_settings" />
+</androidx.appcompat.widget.LinearLayoutCompat>

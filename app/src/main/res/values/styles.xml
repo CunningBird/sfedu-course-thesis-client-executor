@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AuthMainText">
+        <item name="android:textSize">32sp </item>
+        <item name="android:textColor">@color/auth_tv</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+    <style name="ActionButton">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@drawable/action_button</item>
+    </style>
+
+    <style name="ActionButtonEmpty">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/main_app_color</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@drawable/empty_action_button</item>
+    </style>
+
+    <style name="serviceInfoText">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/auth_tv</item>
+        <item name="android:fontFamily">@font/roboto_tegular</item>
+    </style>
+
+    <style name="regularText">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/regular_color</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+    <style name="italicText">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/regular_color</item>
+        <item name="android:fontFamily">@font/roboto_italic</item>
+    </style>
+
+    <style name="italicGrayText">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:fontFamily">@font/roboto_italic</item>
+    </style>
+    <style name="actionBar">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/action_bar_text</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+
+    <style name="accountText">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/action_bar_text</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+
+    <style name="meesageUserName">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/auth_tv</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+
+    <style name="meesageUserDescription">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/regular_color</item>
+        <item name="android:fontFamily">@font/roboto_tegular</item>
+    </style>
+
+    <style name="serviceName">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/auth_tv</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+    </style>
+
+    <style name="serviceAmount">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@color/regular_color</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+    </style>
+
+    <style name="serviceAddress">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@color/regular_color</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+
+    <style name="messageText">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/action_bar_text</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+
+    <style name="messageTime">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/gray_another_3</item>
+        <item name="android:fontFamily">@font/roboto_italic</item>
+    </style>
+
+    <style name="appointmentItem">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@color/regular_color</item>
+        <item name="android:fontFamily">@font/roboto_tegular</item>
+    </style>
+</resources>

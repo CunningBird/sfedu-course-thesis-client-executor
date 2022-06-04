@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/upper_separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/separator" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/ll_item"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_gravity="center_vertical"
+            style="@style/appointmentItem"
+            tools:text="9:30 AM" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <View
+        android:id="@+id/lower_separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/separator" />
+</androidx.appcompat.widget.LinearLayoutCompat>
